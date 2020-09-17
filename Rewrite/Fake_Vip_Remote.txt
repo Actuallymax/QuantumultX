@@ -76,7 +76,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/Actuallymax/QuantumultX/master/Scripts/langkhach/pdfexpert.js
 
 #photoshop
-http-response ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile\/nul\/v1$ requires-body=1,max-size=0, url script-response-body https://raw.githubusercontent.com/Actuallymax/QuantumultX/master/Scripts/langkhach/photoshop.js
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/Actuallymax/QuantumultX/master/Scripts/langkhach/photoshop.js
 
 #productive
 ^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ url script-response-body https://raw.githubusercontent.com/Actuallymax/QuantumultX/master/Scripts/langkhach/productive.js
